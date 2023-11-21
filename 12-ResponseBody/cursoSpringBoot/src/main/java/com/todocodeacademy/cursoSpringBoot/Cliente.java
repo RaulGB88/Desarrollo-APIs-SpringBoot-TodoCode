@@ -3,7 +3,8 @@ package com.todocodeacademy.cursoSpringBoot;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
+@Getter
+@Setter
 public class Cliente {
     private Long id;
     private String nombre;
@@ -17,7 +18,5 @@ public class Cliente {
         this.nombre = nombre;
         this.apellido = apellido;
     }
-    
-    
-    
+
 }
